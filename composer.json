@@ -1,0 +1,12 @@
+{
+    "name": "decouple/dbal-cli",
+    "description": "Command line interface for Decouple Framework DBAL",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Ewing",
+            "email": "drew@phenocode.com"
+        }
+    ],
+    "require": {}
+}
