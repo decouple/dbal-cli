@@ -10,6 +10,8 @@
     ],
     "require": {},
     "psr-4": {
+        "Decouple\\DBAL_CLI\\Command\\": "Command/",
+        "Decouple\\DBAL_CLI\\Contract\\": "Contract/",
         "Decouple\\DBAL_CLI\\": ""
     }
 }
