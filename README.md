@@ -1,4 +1,4 @@
-dbal-cli
+decouple/dbal-cli
 ========
 
-Command line interface for Decouple Framework DBAL
+Command line interface for Decouple Framework's DBAL package.
