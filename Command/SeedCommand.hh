@@ -1,6 +1,7 @@
 <?hh // strict
 namespace Decouple\DBAL_CLI\Command;
 use Decouple\DBAL_CLI\Seed;
+use Decouple\DBAL_CLI\AwaitableSeed;
 use Decouple\CLI\Console;
 use Decouple\CLI\Command\AbstractCommand;
 use Decouple\Registry\Paths;
