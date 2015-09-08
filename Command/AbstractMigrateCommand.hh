@@ -1,12 +1,12 @@
 <?hh // strict
-namespace Decouple\DBAL_CLI\Command;
+namespace Decouple\DB_CLI\Command;
 use Decouple\CLI\Console;
 use Decouple\CLI\Command\AbstractCommand;
 use Decouple\Registry\Paths;
 use Decouple\Decoupler\Decoupler;
-use Decouple\Common\Contract\DB\Table;
-use Decouple\Common\Contract\DB\Schema;
-use Decouple\Common\Contract\DB\TableStructure;
+use Decouple\DB\Contract\Table;
+use Decouple\DB\Contract\Schema;
+use Decouple\DB\Contract\TableStructure;
 abstract class AbstractMigrateCommand extends AbstractCommand {
   protected Table $table;
   public function __construct(

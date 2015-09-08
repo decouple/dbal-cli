@@ -1,12 +1,12 @@
 <?hh // strict
-namespace Decouple\DBAL_CLI\Command;
-use Decouple\DBAL_CLI\Seed;
-use Decouple\DBAL_CLI\AwaitableSeed;
+namespace Decouple\DB_CLI\Command;
+use Decouple\DB_CLI\Seed;
+use Decouple\DB_CLI\AwaitableSeed;
 use Decouple\CLI\Console;
 use Decouple\CLI\Command\AbstractCommand;
 use Decouple\Registry\Paths;
 use Decouple\Decoupler\Decoupler;
-use Decouple\Common\Contract\DB\Schema;
+use Decouple\DB\Contract\Schema;
 use Exception;
 class SeedCommand extends AbstractCommand {
   public static string $name = 'seed:run';

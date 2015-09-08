@@ -1,6 +1,6 @@
 <?hh // strict
-namespace Decouple\DBAL_CLI\Command;
-use Decouple\DBAL_CLI\Migration;
+namespace Decouple\DB_CLI\Command;
+use Decouple\DB_CLI\Migration;
 use Decouple\CLI\Console;
 class MigrateRefreshCommand extends AbstractMigrateCommand {
   public static string $name = 'migrate:refresh';
