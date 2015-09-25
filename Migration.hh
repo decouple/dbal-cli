@@ -1,10 +1,10 @@
 <?hh // strict
-namespace Decouple\DB_CLI;
+namespace Decouple\DBAL_CLI;
 use Exception;
-use Decouple\DB\Contract\Schema;
+use Decouple\Common\Contract\DB\Schema;
 use Decouple\DB\Table\TableInterface;
-use Decouple\DB\Table\Structure\TableStructure;
-use Decouple\DB_CLI\Contract\Migration as MigrationContract;
+use Decouple\DBAL\Table\Structure\TableStructure;
+use Decouple\DBAL_CLI\Contract\Migration as MigrationContract;
 abstract class Migration implements MigrationContract {
   protected string $name = '';
   protected TableStructure $table;

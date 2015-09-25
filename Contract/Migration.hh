@@ -1,5 +1,5 @@
 <?hh // strict
-namespace Decouple\DB_CLI\Contract;
+namespace Decouple\DBAL_CLI\Contract;
 interface Migration {
   public function up() : void;
   public function down() : void;

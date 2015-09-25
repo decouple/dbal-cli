@@ -1,6 +1,6 @@
 <?hh // strict
-namespace Decouple\DB_CLI\Command;
-use Decouple\DB_CLI\Migration;
+namespace Decouple\DBAL_CLI\Command;
+use Decouple\DBAL_CLI\Migration;
 use Decouple\CLI\Console;
 use Exception;
 class MigrateUpCommand extends AbstractMigrateCommand {
