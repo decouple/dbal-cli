@@ -41,7 +41,7 @@ class SeedCommand extends AbstractCommand {
         $obj = $this->decoupler->injectInstance($seed);
         if ($obj instanceof AwaitableSeed) {
           Console::output(sprintf("\t->%s [async]", $seed));
-          $obj->run()->getWaitHandle()->join();
+          \HH\Asio\join($obj->run()->getWaitHandle());
         } else if($obj instanceof Seed) {
           Console::output(sprintf("\t->%s", $seed));
           $obj->run();
